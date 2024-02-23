@@ -9,7 +9,8 @@ End Code
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table shadow-none p-3 mb-5 bg-body-tertiary rounded" >
+<table class="table table-sm" >
+
     <tr>
         <th>
             @Html.DisplayNameFor(Function(model) model.name)
@@ -28,7 +29,7 @@ End Code
     <td>
         @Html.ActionLink("Edit", "Edit", New With {.id = item.category_id}) |
         @Html.ActionLink("Details", "Details", New With {.id = item.category_id}) |
-        @Html.ActionLink("Delete", "Delete", New With {.id = item.category_id})
+        @Html.ActionLink("Deletee", "Delete", New With {.id = item.category_id})
     </td>
 </tr>
 Next

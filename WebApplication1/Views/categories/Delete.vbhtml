@@ -12,7 +12,7 @@ End Code
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(Function(model) model.name)
+            Name
         </dt>
 
         <dd>
@@ -24,7 +24,7 @@ End Code
         @Html.AntiForgeryToken()
 
         @<div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <input type="submit" value="Delete2" class="btn btn-default" /> |
             @Html.ActionLink("Back to List", "Index")
         </div>
     End Using

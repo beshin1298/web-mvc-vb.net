@@ -90,7 +90,7 @@ Namespace Controllers
 
         ' POST: Categories/Delete/5
         <HttpPost()>
-        <ActionName("Delete")>
+        <ActionName("Deletee")>
         <ValidateAntiForgeryToken()>
         Function DeleteConfirmed(ByVal id As Integer) As ActionResult
             Dim category As category = db.categories.Find(id)
