@@ -41,7 +41,7 @@ End Code
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+                <input type="submit" value="Save" class="btn btn-primary mt-2 mb-2" />
             </div>
         </div>
     </div>

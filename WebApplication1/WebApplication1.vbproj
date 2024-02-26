@@ -250,9 +250,17 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>VB_MVC.Designer.vb</LastGenOutput>
     </EntityDeploy>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="Context\VB_MVC.edmx.diagram">
       <DependentUpon>VB_MVC.edmx</DependentUpon>
     </Content>
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -304,6 +312,7 @@
     <Content Include="Views\products\Index.vbhtml" />
     <Content Include="Views\HelloWorld\Index.vbhtml" />
     <Content Include="Views\HelloWorld\Welcome.vbhtml" />
+    <Content Include="Views\categories\Search.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

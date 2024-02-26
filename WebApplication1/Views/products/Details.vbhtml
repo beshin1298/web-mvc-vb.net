@@ -7,7 +7,7 @@ End Code
 <h2>Details</h2>
 
 <div>
-    <h4>product</h4>
+    <h4>Product Detail</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>

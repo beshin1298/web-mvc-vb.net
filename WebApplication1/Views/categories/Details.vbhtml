@@ -4,7 +4,7 @@
     Layout = "~/Views/Shared/_Layout.vbhtml"
 End Code
 
-<h2>Details</h2>
+<h2>Category detail</h2>
 
 <div>
     <h4>category</h4>

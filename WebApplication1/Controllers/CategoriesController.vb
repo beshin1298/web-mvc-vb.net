@@ -1,12 +1,7 @@
-﻿Imports System
-Imports System.Collections.Generic
-Imports System.Data
+﻿
 Imports System.Data.Entity
-Imports System.Linq
 Imports System.Net
-Imports System.Web
-Imports System.Web.Mvc
-Imports WebApplication1
+
 
 Namespace Controllers
     Public Class CategoriesController
@@ -41,7 +36,7 @@ Namespace Controllers
         'more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         <HttpPost()>
         <ValidateAntiForgeryToken()>
-        Function Create(<Bind(Include:="category_id,name")> ByVal category As category) As ActionResult
+        Function Create(<Bind(Include:="name")> ByVal category As category) As ActionResult
             If ModelState.IsValid Then
                 db.categories.Add(category)
                 db.SaveChanges()
@@ -90,7 +85,7 @@ Namespace Controllers
 
         ' POST: Categories/Delete/5
         <HttpPost()>
-        <ActionName("Deletee")>
+        <ActionName("Delete")>
         <ValidateAntiForgeryToken()>
         Function DeleteConfirmed(ByVal id As Integer) As ActionResult
             Dim category As category = db.categories.Find(id)
@@ -98,6 +93,22 @@ Namespace Controllers
             db.SaveChanges()
             Return RedirectToAction("Index")
         End Function
+
+        <HttpPost()>
+        <ActionName("Search")>
+        <ValidateAntiForgeryToken()>
+        Function Search(SearchString As String) As ActionResult
+            Dim listCategories As List(Of category) = Nothing
+
+            If Not String.IsNullOrEmpty(SearchString) Then
+                listCategories = (From category In db.categories Where category.name.ToLower().Contains(SearchString.ToLower())).ToList()
+            Else
+                listCategories = db.categories.ToList()
+            End If
+
+            Return View("Index", listCategories)
+        End Function
+
 
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
             If (disposing) Then

@@ -7,8 +7,5 @@ Namespace WebMVC.Models
         Public quantity As Integer
         Public categoryId As Integer
     End Class
-    Public Class MovieDBContext
-        Inherits DbContext
-        Public Property Movies As DbSet(Of Product)
-    End Class
+
 End Namespace
