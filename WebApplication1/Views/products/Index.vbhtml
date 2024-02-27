@@ -44,14 +44,14 @@ End Using
                 @Html.DisplayFor(Function(modelItem) item.category.name)
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="window.location.href='@Url.Action("Edit", "Products", New With {.id = item.category_id})'">
+                <button type="button" class="btn btn-primary" onclick="window.location.href='@Url.Action("Edit", "Products", New With {.id = item.product_id})'">
                     <i class="fa fa-cog" aria-hidden="true"></i>
                 </button>
-                <button type="button" class="btn btn-success" onclick="window.location.href='@Url.Action("Details", "Products", New With {.id = item.category_id})'">
+                <button type="button" class="btn btn-success" onclick="window.location.href='@Url.Action("Details", "Products", New With {.id = item.product_id})'">
                     <i class="fa fa-info" aria-hidden="true"></i>
                 </button>
 
-                <button type="button" class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "Products", New With {.id = item.category_id})'">
+                <button type="button" class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "Products", New With {.id = item.product_id})'">
                     <i class="fa fa-trash-o" aria-hidden="true"></i>
 
                 </button>

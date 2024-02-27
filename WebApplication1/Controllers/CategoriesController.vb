@@ -89,9 +89,19 @@ Namespace Controllers
         <ValidateAntiForgeryToken()>
         Function DeleteConfirmed(ByVal id As Integer) As ActionResult
             Dim category As category = db.categories.Find(id)
-            db.categories.Remove(category)
-            db.SaveChanges()
-            Return RedirectToAction("Index")
+
+            Try
+                db.categories.Remove(category)
+                db.SaveChanges()
+                Return RedirectToAction("Index")
+            Catch ex As Exception
+                TempData("ErrorMessage") = "Có lỗi xảy ra."
+                Return View("Delete")
+            Finally
+                db.Dispose()
+            End Try
+
+
         End Function
 
         <HttpPost()>

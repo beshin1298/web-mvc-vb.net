@@ -9,11 +9,21 @@
 
 Imports System
 Imports System.Collections.Generic
+Imports System.ComponentModel
+Imports System.ComponentModel.DataAnnotations
 
 Partial Public Class product
+    <Key>
+    <DisplayName("Product Id")>
     Public Property product_id As Integer
+    <Required>
+    <DisplayName("Name")>
     Public Property name As String
+    <Required>
+    <DisplayName("Quantity")>
     Public Property quantity As Integer
+    <Required>
+    <DisplayName("Category")>
     Public Property category_id As Integer
 
     Public Overridable Property category As category

@@ -35,7 +35,8 @@ End Code
                 <input type="submit" value="Create" class="btn btn-default" />
             </div>
         </div>
-    </div>  End Using
+    </div>  
+End Using
 
 <div>
     @Html.ActionLink("Back to List", "Index")

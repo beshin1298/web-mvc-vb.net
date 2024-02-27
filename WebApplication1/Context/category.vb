@@ -9,9 +9,15 @@
 
 Imports System
 Imports System.Collections.Generic
+Imports System.ComponentModel
+Imports System.ComponentModel.DataAnnotations
 
 Partial Public Class category
+    <Key>
     Public Property category_id As Integer
+
+    <DisplayName("Category Name")>
+    <Required>
     Public Property name As String
 
     Public Overridable Property products As ICollection(Of product) = New HashSet(Of product)

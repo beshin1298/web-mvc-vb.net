@@ -44,12 +44,16 @@ Namespace Controllers
         <HttpPost()>
         <ValidateAntiForgeryToken()>
         Function Create(<Bind(Include:="product_id,name,quantity,category_id")> ByVal product As product) As ActionResult
-            If ModelState.IsValid Then
-                db.products.Add(product)
-                db.SaveChanges()
-                Return RedirectToAction("Index")
-            End If
-            ViewBag.category_id = New SelectList(db.categories, "category_id", "name", product.category_id)
+            Try
+                If ModelState.IsValid Then
+                    db.products.Add(product)
+                    db.SaveChanges()
+                    Return RedirectToAction("Index")
+                End If
+                ViewBag.category_id = New SelectList(db.categories, "category_id", "name", product.category_id)
+            Catch exc As Exception
+                TempData("Error Message") = "Something error"
+            End Try
             Return View(product)
         End Function
 

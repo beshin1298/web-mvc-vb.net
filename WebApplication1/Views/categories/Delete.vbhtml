@@ -20,6 +20,14 @@ End Code
         </dd>
 
     </dl>
+
+    @If TempData.ContainsKey("ErrorMessage") Then
+        @<div class="alert alert-danger">
+            @TempData("ErrorMessage")
+        </div>
+    End If
+
+
     @Using (Html.BeginForm())
         @Html.AntiForgeryToken()
 

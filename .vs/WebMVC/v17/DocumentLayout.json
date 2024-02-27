@@ -1,12 +1,275 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\context\\product.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\context\\product.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\views\\products\\create.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\views\\products\\create.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\views\\products\\index.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\views\\products\\index.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\views\\categories\\delete.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\views\\categories\\delete.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\views\\categories\\create.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\views\\categories\\create.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\controllers\\productscontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\controllers\\productscontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\context\\category.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\context\\category.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\controllers\\categoriescontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\controllers\\categoriescontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\views\\categories\\index.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\views\\categories\\index.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\views\\home\\about.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\views\\home\\about.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\controllers\\homecontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\views\\shared\\_layout.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\views\\shared\\_layout.vbhtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|c:\\users\\fanaticvn\\source\\repos\\webmvc\\webapplication1\\scripts\\bootstrap.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C1008150-B8D8-4363-8A8E-17E41F475462}|WebApplication1\\WebApplication1.vbproj|solutionrelative:webapplication1\\scripts\\bootstrap.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.vbhtml",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\products\\Index.vbhtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\products\\Index.vbhtml",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\products\\Index.vbhtml",
+              "RelativeToolTip": "WebApplication1\\Views\\products\\Index.vbhtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
+              "WhenOpened": "2024-02-27T04:44:21.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\Web.config",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\Web.config",
+              "RelativeToolTip": "WebApplication1\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-02-27T04:36:42.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.vbhtml",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\products\\Create.vbhtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\products\\Create.vbhtml",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\products\\Create.vbhtml",
+              "RelativeToolTip": "WebApplication1\\Views\\products\\Create.vbhtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwCoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
+              "WhenOpened": "2024-02-27T04:31:46.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "product.vb",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Context\\product.vb",
+              "RelativeDocumentMoniker": "WebApplication1\\Context\\product.vb",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Context\\product.vb",
+              "RelativeToolTip": "WebApplication1\\Context\\product.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-27T04:25:02.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.vb",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Controllers\\ProductsController.vb",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductsController.vb",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Controllers\\ProductsController.vb",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProductsController.vb",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-27T04:24:52.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\packages.config",
+              "RelativeDocumentMoniker": "WebApplication1\\packages.config",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\packages.config",
+              "RelativeToolTip": "WebApplication1\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-02-27T03:51:03.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "About.vbhtml",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\Home\\About.vbhtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\About.vbhtml",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\Home\\About.vbhtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\About.vbhtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
+              "WhenOpened": "2024-02-27T03:48:14.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.vb",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Controllers\\HomeController.vb",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.vb",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Controllers\\HomeController.vb",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-27T03:48:06.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.vbhtml",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\categories\\Delete.vbhtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\categories\\Delete.vbhtml",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\categories\\Delete.vbhtml",
+              "RelativeToolTip": "WebApplication1\\Views\\categories\\Delete.vbhtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
+              "WhenOpened": "2024-02-27T03:34:18.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.vbhtml",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\categories\\Create.vbhtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\categories\\Create.vbhtml",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\categories\\Create.vbhtml",
+              "RelativeToolTip": "WebApplication1\\Views\\categories\\Create.vbhtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
+              "WhenOpened": "2024-02-27T03:20:34.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "category.vb",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Context\\category.vb",
+              "RelativeDocumentMoniker": "WebApplication1\\Context\\category.vb",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Context\\category.vb",
+              "RelativeToolTip": "WebApplication1\\Context\\category.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-27T03:10:51.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bootstrap.min.js",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Scripts\\bootstrap.min.js",
+              "RelativeDocumentMoniker": "WebApplication1\\Scripts\\bootstrap.min.js",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Scripts\\bootstrap.min.js",
+              "RelativeToolTip": "WebApplication1\\Scripts\\bootstrap.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-02-27T02:28:43.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.vbhtml",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\Shared\\_Layout.vbhtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.vbhtml",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\Shared\\_Layout.vbhtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.vbhtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
+              "WhenOpened": "2024-02-27T02:25:19.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.vbhtml",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\categories\\Index.vbhtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\categories\\Index.vbhtml",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Views\\categories\\Index.vbhtml",
+              "RelativeToolTip": "WebApplication1\\Views\\categories\\Index.vbhtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003381|",
+              "WhenOpened": "2024-02-27T01:38:04.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriesController.vb",
+              "DocumentMoniker": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Controllers\\CategoriesController.vb",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoriesController.vb",
+              "ToolTip": "C:\\Users\\FanaticVn\\source\\repos\\WebMVC\\WebApplication1\\Controllers\\CategoriesController.vb",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoriesController.vb",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAmwFoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-27T01:37:24.281Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
