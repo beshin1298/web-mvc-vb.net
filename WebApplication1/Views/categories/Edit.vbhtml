@@ -10,16 +10,15 @@ End Code
     @Html.AntiForgeryToken()
     
     @<div class="form-horizontal">
-        <h4>category</h4>
-        <hr />
+      
         @Html.ValidationSummary(True, "", New With { .class = "text-danger" })
         @Html.HiddenFor(Function(model) model.category_id)
 
         <div class="form-group">
-            @Html.LabelFor(Function(model) model.name, htmlAttributes:= New With { .class = "control-label col-md-2" })
+            <div class="p-2">Category name</div>
             <div class="col-md-10">
-                @Html.EditorFor(Function(model) model.name, New With { .htmlAttributes = New With { .class = "form-control" } })
-                @Html.ValidationMessageFor(Function(model) model.name, "", New With { .class = "text-danger" })
+                @Html.EditorFor(Function(model) model.name, New With {.htmlAttributes = New With {.class = "form-control"}})
+                @Html.ValidationMessageFor(Function(model) model.name, "", New With {.class = "text-danger"})
             </div>
         </div>
 

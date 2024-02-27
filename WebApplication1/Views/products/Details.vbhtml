@@ -6,37 +6,27 @@ End Code
 
 <h2>Details</h2>
 
-<div>
-    <h4>Product Detail</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(Function(model) model.name)
-        </dt>
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="main-img">
+                <img class="img-fluid" src="@Model.image" alt="ProductS">
+                <!-- Thêm hình ảnh xem trước khác (nếu cần) -->
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="main-description px-2">
+                <div class="category font-weight-bold">Category: @Model.category.name</div>
+                <h1 class="product-title">@Model.name</h1>
+                <p class="product-description"> Quantity in warehouse: @Model.quantity</p>
 
-        <dd>
-            @Html.DisplayFor(Function(model) model.name)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(Function(model) model.quantity)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(Function(model) model.quantity)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(Function(model) model.category.name)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(Function(model) model.category.name)
-        </dd>
-
-    </dl>
+            </div>
+            <div>
+                @Html.ActionLink("Edit", "Edit", New With {.id = Model.product_id}) |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        </div>
+       
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", New With { .id = Model.product_id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+

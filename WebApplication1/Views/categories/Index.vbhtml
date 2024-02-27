@@ -9,13 +9,16 @@ End Code
 
 @Using (Html.BeginForm("Search", "categories", FormMethod.Post))
     @Html.AntiForgeryToken()
-    @<div style="display:flex; height: 30px">
-        @Html.TextBox("SearchString") <br />
-        <br />
+    @<div class="d-flex gap-10">
+        <div class="p-1">
+            @Html.TextBox("SearchString", Nothing, New With {.class = "form-control"})
 
-        <button type="submit" value="Search">
-            <i class="fa fa-search" aria-hidden="true"></i>
-        </button>
+        </div>
+        <div class="p-1">
+            <button type="submit" class="btn btn-primary pa">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </div>
     </div>
 
 End Using
@@ -32,32 +35,38 @@ End Using
             Action
         </th>
     </tr>
-
-    @For Each item In Model
-        @<tr>
-            <td>
-                @Html.DisplayFor(Function(modelItem) item.category_id)
-            </td>
-            <td>
-                @Html.DisplayFor(Function(modelItem) item.name)
-            </td>
-            <td>
-                <button type="button" class="btn btn-primary" onclick="window.location.href='@Url.Action("Edit", "categories", New With {.id = item.category_id})'">
-                    <i class="fa fa-cog" aria-hidden="true"></i>
-                </button>
-                <button type="button" class="btn btn-success" onclick="window.location.href='@Url.Action("Details", "categories", New With {.id = item.category_id})'">
-                    <i class="fa fa-info" aria-hidden="true"></i>
-                </button>
-
-                <button type="button" class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "categories", New With {.id = item.category_id})'">
-                    <i class="fa fa-trash-o" aria-hidden="true"></i>
-
-                </button>
-            </td>
+    @If Model.Count = 0 Then
+       @<tr>
+           <td colspan="3" class="text-center text-danger">List Category is null</td>
         </tr>
-    Next
+    Else
+        @For Each item In Model
+            @<tr>
+                <td>
+                    @Html.DisplayFor(Function(modelItem) item.category_id)
+                </td>
+                <td>
+                    @Html.DisplayFor(Function(modelItem) item.name)
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='@Url.Action("Edit", "categories", New With {.id = item.category_id})'">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-success" onclick="window.location.href='@Url.Action("Details", "categories", New With {.id = item.category_id})'">
+                        <i class="fa fa-info" aria-hidden="true"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "categories", New With {.id = item.category_id})'">
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+
+                    </button>
+                </td>
+            </tr>
+        Next
+    End If
+
 
 </table>
-<button type="button" class="btn btn-primary" onclick="window.location.href='@Url.Action("Create", "categories")'">
-    <i class="fa fa-plus" aria-hidden="true"></i>
+<button type="button" Class="btn btn-primary" onclick="window.location.href='@Url.Action("Create", "categories")'">
+    <i Class="fa fa-plus" aria-hidden="true"></i>
 </button>

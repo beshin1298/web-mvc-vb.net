@@ -6,13 +6,12 @@ End Code
 
 <h2>Delete</h2>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Are you sure you want to delete this category?</h3>
 <div>
-    <h4>category</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            Name
+            Category name
         </dt>
 
         <dd>

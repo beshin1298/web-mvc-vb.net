@@ -14,17 +14,25 @@ Imports System.ComponentModel.DataAnnotations
 
 Partial Public Class product
     <Key>
+    <Required>
+    <Range(0, 10000, ErrorMessage:="Id must be larger than 0")>
     <DisplayName("Product Id")>
     Public Property product_id As Integer
+
     <Required>
-    <DisplayName("Name")>
+    <DisplayName("Product Name")>
     Public Property name As String
+
     <Required>
-    <DisplayName("Quantity")>
+    <Range(1, 10000, ErrorMessage:="Quantity must be larger than 0 and Smaller than 10000")>
+    <DisplayName("Product Quantity")>
     Public Property quantity As Integer
-    <Required>
-    <DisplayName("Category")>
+
+    <DisplayName("Category Name")>
     Public Property category_id As Integer
+
+    <DisplayName("Product Image")>
+    Public Property image As String
 
     Public Overridable Property category As category
 

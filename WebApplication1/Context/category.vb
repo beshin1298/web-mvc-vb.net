@@ -13,11 +13,14 @@ Imports System.ComponentModel
 Imports System.ComponentModel.DataAnnotations
 
 Partial Public Class category
+    <Required>
     <Key>
+    <Range(0, 10000, ErrorMessage:="Id must be larger than 0")>
+    <DisplayName("Category Id")>
     Public Property category_id As Integer
 
-    <DisplayName("Category Name")>
     <Required>
+    <DisplayName("Category Name")>
     Public Property name As String
 
     Public Overridable Property products As ICollection(Of product) = New HashSet(Of product)

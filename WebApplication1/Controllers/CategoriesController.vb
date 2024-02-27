@@ -36,7 +36,7 @@ Namespace Controllers
         'more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         <HttpPost()>
         <ValidateAntiForgeryToken()>
-        Function Create(<Bind(Include:="name")> ByVal category As category) As ActionResult
+        Function Create(<Bind(Include:="category_id,name")> ByVal category As category) As ActionResult
             If ModelState.IsValid Then
                 db.categories.Add(category)
                 db.SaveChanges()

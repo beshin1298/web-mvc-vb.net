@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-dark bg-danger">
         <div class="container">
             @Html.ActionLink("BESHIN APPLICATION", "Index", "Home", New With {.area = ""}, New With {.class = "navbar-brand"})
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"

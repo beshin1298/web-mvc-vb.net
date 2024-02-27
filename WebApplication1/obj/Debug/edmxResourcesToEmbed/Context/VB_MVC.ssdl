@@ -15,6 +15,7 @@
     <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="quantity" Type="int" Nullable="false" />
     <Property Name="category_id" Type="int" Nullable="false" />
+    <Property Name="image" Type="nvarchar(max)" />
   </EntityType>
   <Association Name="FK_product_category">
     <End Role="category" Type="Self.category" Multiplicity="1" />

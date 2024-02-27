@@ -12,6 +12,7 @@
     <EntitySetMapping Name="products">
       <EntityTypeMapping TypeName="VB_MVCModel.product">
         <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="image" ColumnName="image" />
           <ScalarProperty Name="product_id" ColumnName="product_id" />
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="quantity" ColumnName="quantity" />

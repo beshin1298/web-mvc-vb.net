@@ -6,15 +6,20 @@ End Code
 
 <h2>Products</h2>
 
-@Using (Html.BeginForm("Search", "Products", FormMethod.Post))
+@Using (Html.BeginForm("Search", "categories", FormMethod.Post))
     @Html.AntiForgeryToken()
-    @<div style="display:flex; height: 30px">
-        @Html.TextBox("SearchString") <br />
-        <br />
+    @<div class="d-flex gap-10">
+        <div class="p-1">
+            @Html.TextBox("SearchString", Nothing, New With {.class = "form-control"})
 
-        <button type="submit" value="Search">
-            <i class="fa fa-search" aria-hidden="true"></i>
-        </button>
+        </div>
+        <div class="p-1">
+            <button type="submit" class="btn btn-primary pa">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </div>
+
+
     </div>
 
 End Using
